@@ -1,0 +1,9 @@
+{
+  "name": "cement-tools",
+  "version": "0.1.0",
+  "description": "An MCP server exposing cement-plant telemetry tools.",
+  "tools": [
+    { "name": "get_kiln_temp", "description": "Read current kiln temperature" },
+    { "name": "get_clinker_rate", "description": "Read clinker production rate" }
+  ]
+}

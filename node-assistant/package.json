@@ -1,0 +1,15 @@
+{
+  "name": "node-assistant",
+  "version": "1.0.0",
+  "description": "Chat assistant built on the Vercel AI SDK with the OpenAI provider.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "ai": "^4.0.0",
+    "@ai-sdk/openai": "^1.0.0",
+    "openai": "^4.60.0"
+  }
+}

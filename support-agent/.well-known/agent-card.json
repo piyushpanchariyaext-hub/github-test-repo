@@ -1,0 +1,10 @@
+{
+  "name": "support-triage-agent",
+  "description": "Classifies and routes inbound customer-support tickets.",
+  "url": "https://agents.acp-test.example/support",
+  "version": "0.1.0",
+  "capabilities": { "streaming": true },
+  "skills": [
+    { "id": "classify", "name": "Classify ticket", "description": "Assigns a support category." }
+  ]
+}
